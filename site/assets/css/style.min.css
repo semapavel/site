@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+*{padding:0;margin:0;font-family:'Roboto', sans-serif}
+.first-monitor{
+	height:100vh;
+	background-color:#000;
+	background:url("../images/background-first.png") no-repeat top right;
+	background-size:cover
+}
+.first-monitor__h100{
+	height:100%
+}
+.logo__container{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack:end;
+	-ms-flex-pack:end;
+	justify-content:flex-end
+}
+.logo__big{
+	max-width:280px;
+	max-height:280px
+}
+.logo__big img{
+	width:100%;
+	height:100%;
+	-o-object-fit:cover;
+	object-fit:cover
+}
+.logo__desc{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column;
+	-webkit-box-pack:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+	-webkit-box-align:center;
+	-ms-flex-align:center;align-items:center;color:#fff}
+	.logo__desc p{
+		margin:10px 0 0 0;
+		max-width:570px;
+		text-align:center
+	}
+	.logo__text{
+		max-width:345px
+	}
+	.link__file-dw{
+		background-color:#F2CB12;
+		padding:15px 35px;
+		border-radius:40px;
+		text-decoration:none;
+		color:#000;
+		-webkit-transition:all 0.2s ease 0s;
+		transition:all 0.2s ease 0s
+	}
+	.link__file-dw:hover{
+		padding:25px 40px
+	}
+/*# sourceMappingURL=style.min.css.map */
